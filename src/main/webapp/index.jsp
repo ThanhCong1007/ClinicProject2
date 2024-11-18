@@ -76,22 +76,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="<%=request.getContextPath() %>/index.jsp" class="nav-item nav-link active">Home</a>
-                <a href="<%=request.getContextPath() %>/templates/about.jsp" class="nav-item nav-link">About</a>
-                <a href="<%=request.getContextPath() %>/templates/service.jsp" class="nav-item nav-link">Service</a>
+                <a href="<%=request.getContextPath() %>/index.jsp" class="nav-item nav-link active">Trang chủ</a>
+                <a href="<%=request.getContextPath() %>/templates/about.jsp" class="nav-item nav-link">Giới thiệu</a>
+                <a href="<%=request.getContextPath() %>/templates/service.jsp" class="nav-item nav-link">Dịch vụ</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hoạt động</a>
                     <div class="dropdown-menu m-0">
-                        <a href="<%=request.getContextPath() %>/templates/price.jsp" class="dropdown-item">Pricing Plan</a>
-                        <a href="<%=request.getContextPath() %>/templates/team.jsp" class="dropdown-item">Our Dentist</a>
-                        <a href="<%=request.getContextPath() %>/templates/testimonial.jsp" class="dropdown-item">Testimonial</a>
-                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="dropdown-item">Appointment</a>
+                        <a href="<%=request.getContextPath() %>/templates/price.jsp" class="dropdown-item">Chi phí</a>
+                        <a href="<%=request.getContextPath() %>/templates/team.jsp" class="dropdown-item">Nha sĩ</a>
+                        <a href="<%=request.getContextPath() %>/templates/testimonial.jsp" class="dropdown-item">Chứng nhận</a>
+                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="dropdown-item">Đặt hẹn</a>
                     </div>
                 </div>
-                <a href="<%=request.getContextPath() %>/templates/contact.jsp" class="nav-item nav-link">Contact</a>
+                <a href="<%=request.getContextPath() %>/templates/contact.jsp" class="nav-item nav-link">Liên hệ</a>
             </div>
             <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-            <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
+            <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 ms-3">Đặt hẹn</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -124,10 +124,10 @@
                     <img class="w-100" src="<%=request.getContextPath() %>/images/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your Teeth Healthy</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h1>
-                            <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Hãy giữ cho răng của bạn được khỏe mạnh</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Hãy sử dụng dịch vụ chăm sóc răng miệng tốt nhất của chúng tôi</h1>
+                            <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Đặt hẹn</a>
+                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Liên hệ</a>
                         </div>
                     </div>
                 </div>
@@ -135,10 +135,10 @@
                     <img class="w-100" src="<%=request.getContextPath() %>/images/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep Your Teeth Healthy</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Take The Best Quality Dental Treatment</h1>
-                            <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Hãy giữ cho răng của bạn được khỏe mạnh</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Hãy sử dụng dịch vụ chăm sóc răng miệng tốt nhất của chúng tôi</h1>
+                            <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Đặt hẹn</a>
+                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Liên hệ</a>
                         </div>
                     </div>
                 </div>
@@ -164,42 +164,44 @@
             <div class="row gx-0">
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
                     <div class="bg-primary d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Opening Hours</h3>
+                        <h3 class="text-white mb-3">Giờ mở cửa</h3>
                         <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Mon - Fri</h6>
+                            <h6 class="text-white mb-0">Th2 -Th6</h6>
                             <p class="mb-0"> 8:00am - 9:00pm</p>
                         </div>
                         <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Saturday</h6>
+                            <h6 class="text-white mb-0">Thứ 7</h6>
                             <p class="mb-0"> 8:00am - 7:00pm</p>
                         </div>
                         <div class="d-flex justify-content-between text-white mb-3">
-                            <h6 class="text-white mb-0">Sunday</h6>
+                            <h6 class="text-white mb-0">Chủ nhật</h6>
                             <p class="mb-0"> 8:00am - 5:00pm</p>
                         </div>
-                        <a class="btn btn-light" href="">Appointment</a>
+                        <a class="btn btn-light" href="">Đặt hẹn</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
                     <div class="bg-dark d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Search A Doctor</h3>
+                        <h3 class="text-white mb-3">Tìm kiếm bác sĩ</h3>
                         <div class="date mb-3" id="date" data-target-input="nearest">
                             <input type="text" class="form-control bg-light border-0 datetimepicker-input"
-                                placeholder="Appointment Date" data-target="#date" data-toggle="datetimepicker" style="height: 40px;">
+                                placeholder="Chọn thời gian đặt hẹn" data-target="#date" data-toggle="datetimepicker" style="height: 40px;">
                         </div>
                         <select class="form-select bg-light border-0 mb-3" style="height: 40px;">
-                            <option selected>Select A Service</option>
+                            <option selected>Lựa chọn dịch vụ</option>
+                            //code ở đây
                             <option value="1">Service 1</option>
                             <option value="2">Service 2</option>
                             <option value="3">Service 3</option>
                         </select>
-                        <a class="btn btn-light" href="">Search Doctor</a>
+                        <a class="btn btn-light" href="">Tìm Bác sĩ</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
                     <div class="bg-secondary d-flex flex-column p-5" style="height: 300px;">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
-                        <p class="text-white">Ipsum erat ipsum dolor clita rebum no rebum dolores labore, ipsum magna at eos et eos amet.</p>
+                        <h3 class="text-white mb-3">Đặt lịch hẹn</h3>
+                        <p class="text-white">Đặt khám với hơn 600 bác sĩ, 25 bệnh viện, 100 phòng khám trên Dentcare
+											để có số thứ tự và khung giờ khám trước.</p>
                         <h2 class="text-white mb-0">+012 345 6789</h2>
                     </div>
                 </div>
@@ -215,22 +217,22 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title mb-4">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">About Us</h5>
-                        <h1 class="display-5 mb-0">The World's Best Dental Clinic That You Can Trust</h1>
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Giới thiệu</h5>
+                        <h1 class="display-5 mb-0">Phòng khám nha khoa tốt nhất mà bạn có thể tin tưởng</h1>
                     </div>
-                    <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4>
+                    <h4 class="text-body fst-italic mb-4">Hãy để chúng tôi loại bỏ nổi đau của bạn và mang đi một cách nhẹ nhàng nhất </h4>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
                     <div class="row g-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Award Winning</h5>
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Professional Staff</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Chứng chỉ</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Đội ngũ nhân viên chuyên nghiệp</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>24/7 Opened</h5>
-                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Fair Prices</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Mở cửa 24/7</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Giá cả hợp lí</h5>
                         </div>
                     </div>
-                    <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Make Appointment</a>
+                    <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Đặt lịch hẹn</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -249,18 +251,18 @@
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
                     <div class="py-5">
-                        <h1 class="display-5 text-white mb-4">We Are A Certified and Award Winning Dental Clinic You Can Trust</h1>
+                        <h1 class="display-5 text-white mb-4">Chúng tôi là phòng khám nha khoa đã được chứng nhận và giành được nhiều giải thưởng quốc tế.</h1>
                         <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4">Make Appointment</h1>
+                        <h1 class="text-white mb-4">Đặt lịch hẹn</h1>
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
+                                        <option selected>Lựa chọn dịch vụ</option>
                                         <option value="1">Service 1</option>
                                         <option value="2">Service 2</option>
                                         <option value="3">Service 3</option>
@@ -268,34 +270,34 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select Doctor</option>
+                                        <option selected>Chọn Bác sĩ</option>
                                         <option value="1">Doctor 1</option>
                                         <option value="2">Doctor 2</option>
                                         <option value="3">Doctor 3</option>
                                     </select>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Tên" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                            placeholder="Ngày hẹn" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="time" id="time1" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
+                                            placeholder="Thời gian hẹn" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Đặt lịch hẹn</button>
                                 </div>
                             </div>
                         </form>
@@ -319,8 +321,8 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="section-title mb-5">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Services</h5>
-                        <h1 class="display-5 mb-0">We Offer The Best Quality Dental Services</h1>
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Dịch vụ của chúng tôi</h5>
+                        <h1 class="display-5 mb-0">Chúng tôi là nơi cung cấp cho các bạn dịch vụ tốt nhất</h1>
                     </div>
                     <div class="row g-5">
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
@@ -328,7 +330,7 @@
                                 <img class="img-fluid" src="<%=request.getContextPath() %>/images/img/service-1.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Cosmetic Dentistry</h5>
+                                <h5 class="m-0">Nha khoa thẩm mỹ</h5>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
@@ -336,7 +338,7 @@
                                 <img class="img-fluid" src="<%=request.getContextPath() %>/images/service-2.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Implants</h5>
+                                <h5 class="m-0">Cấy ghép răng</h5>
                             </div>
                         </div>
                     </div>
@@ -350,7 +352,7 @@
                                 <img class="img-fluid" src="<%=request.getContextPath() %>/images/service-3.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Bridges</h5>
+                                <h5 class="m-0">Phẩu thuật trong miệng</h5>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
@@ -358,15 +360,15 @@
                                 <img class="img-fluid" src="<%=request.getContextPath() %>/images/service-4.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Teeth Whitening</h5>
+                                <h5 class="m-0">Làm trắng răng</h5>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
+                        <h3 class="text-white mb-3">Đặt lịch hẹn</h3>
+                        <p class="text-white mb-3">Đặt khám với hơn 600 bác sĩ, 25 bệnh viện, 100 phòng khám trên Dentcare để có số thứ tự và khung giờ khám trước.</p>
                         <h2 class="text-white mb-0">+012 345 6789</h2>
                     </div>
                 </div>
@@ -382,10 +384,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7 wow zoomIn" data-wow-delay="0.6s">
                     <div class="offer-text text-center rounded p-5">
-                        <h1 class="display-5 text-white">Save 30% On Your First Dental Checkup</h1>
+                        <h1 class="display-5 text-white">Giảm giá 30% cho lần khám răng đầu tiên của bạn</h1>
                         <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod diam duo lorem magna sit dolore sed et.</p>
-                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-dark py-3 px-5 me-3">Appointment</a>
-                        <a href="" class="btn btn-light py-3 px-5">Read More</a>
+                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-dark py-3 px-5 me-3">Đặt lịch</a>
+                        <a href="" class="btn btn-light py-3 px-5">Tìm hiểu thêm</a>
                     </div>
                 </div>
             </div>
@@ -400,11 +402,11 @@
             <div class="row g-5">
                 <div class="col-lg-5">
                     <div class="section-title mb-4">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Pricing Plan</h5>
-                        <h1 class="display-5 mb-0">We Offer Fair Prices for Dental Treatment</h1>
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Chi phí</h5>
+                        <h1 class="display-5 mb-0">Chúng tôi cung cấp cho bạn các bạn với chi phí tốt nhất</h1>
                     </div>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo eirmod magna dolore erat amet</p>
-                    <h5 class="text-uppercase text-primary wow fadeInUp" data-wow-delay="0.3s">Call for Appointment</h5>
+                    <h5 class="text-uppercase text-primary wow fadeInUp" data-wow-delay="0.3s">Gọi cho chúng tôi</h5>
                     <h1 class="wow fadeInUp" data-wow-delay="0.6s">+012 345 6789</h1>
                 </div>
                 <div class="col-lg-7">
@@ -417,12 +419,12 @@
                                 </div>
                             </div>
                             <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
-                                <h4>Teeth Whitening</h4>
+                                <h4>Làm trắng răng</h4>
                                 <hr class="text-primary w-50 mx-auto mt-0">
-                                <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                                <div class="d-flex justify-content-between mb-3"><span>Thiết bị hiện đại</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>Bác sĩ chuyên nghiệp</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>Hỗ trợ 24/7</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Đặt hẹn</a>
                             </div>
                         </div>
                         <div class="price-item pb-4">
@@ -433,12 +435,12 @@
                                 </div>
                             </div>
                             <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
-                                <h4>Dental Implant</h4>
+                                <h4>Cấy ghép răng</h4>
                                 <hr class="text-primary w-50 mx-auto mt-0">
-                                <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                                <div class="d-flex justify-content-between mb-3"><span>Thiết bị hiện đại</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>Bác sĩ chuyên nghiệp</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>Hỗ trợ 24/7</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Đặt hẹn</a>
                             </div>
                         </div>
                         <div class="price-item pb-4">
@@ -451,10 +453,10 @@
                             <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
                                 <h4>Root Canal</h4>
                                 <hr class="text-primary w-50 mx-auto mt-0">
-                                <div class="d-flex justify-content-between mb-3"><span>Modern Equipment</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-3"><span>Professional Dentist</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <div class="d-flex justify-content-between mb-2"><span>24/7 Call Support</span><i class="fa fa-check text-primary pt-1"></i></div>
-                                <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Appointment</a>
+                               <div class="d-flex justify-content-between mb-3"><span>Thiết bị hiện đại</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-3"><span>Bác sĩ chuyên nghiệp</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <div class="d-flex justify-content-between mb-2"><span>Hỗ trợ 24/7</span><i class="fa fa-check text-primary pt-1"></i></div>
+                                <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle">Đặt hẹn</a>
                             </div>
                         </div>
                     </div>
@@ -475,13 +477,13 @@
                             <img class="img-fluid mx-auto rounded mb-4" src="<%=request.getContextPath() %>/images/testimonial-1.jpg" alt="">
                             <p class="fs-5">Dolores sed duo clita justo dolor et stet lorem kasd dolore lorem ipsum. At lorem lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
                             <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
+                            <h4 class="text-white mb-0"> BS. CK2 Lê Thị Minh Hồng </h4>
                         </div>
                         <div class="testimonial-item text-center text-white">
                             <img class="img-fluid mx-auto rounded mb-4" src="<%=request.getContextPath() %>/images/testimonial-2.jpg" alt="">
                             <p class="fs-5">Dolores sed duo clita justo dolor et stet lorem kasd dolore lorem ipsum. At lorem lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
                             <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
+                            <h4 class="text-white mb-0"> BS. CK2 Nguyễn Thị Thu Hà </h4>
                         </div>
                     </div>
                 </div>
@@ -497,9 +499,9 @@
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.1s">
                     <div class="section-title bg-light rounded h-100 p-5">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Dentist</h5>
-                        <h1 class="display-6 mb-4">Meet Our Certified & Experienced Dentist</h1>
-                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-3 px-5">Appointment</a>
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Các bác sĩ của chúng tôi</h5>
+                        <h1 class="display-6 mb-4">Gặp gỡ các bác sĩ giàu kinh nghiệm của chúng tôi</h1>
+                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-3 px-5">Đặt hẹn</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
@@ -514,7 +516,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> PGS. TS. BS Lâm Việt Trung </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -531,7 +533,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> BS. CK2 Võ Đức Hiếu </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -548,7 +550,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> PGS. TS. BS Trần Quang Nam </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -565,7 +567,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> TS. BS Nguyễn Bá Thắng </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -582,7 +584,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> TS. BS Trần Anh Tuấn </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -600,7 +602,7 @@
                 <form class="mx-auto" style="max-width: 600px;">
                     <div class="input-group">
                         <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                        <button class="btn btn-dark px-4">Sign Up</button>
+                        <button class="btn btn-dark px-4">Đăng kí</button>
                     </div>
                 </form>
             </div>
@@ -616,11 +618,10 @@
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Quick Links</h3>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Trang chủ</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Giới thiệu</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Dịch vụ</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Liên hệ</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -634,13 +635,13 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                    <h3 class="text-white mb-4">Hãy liên hệ</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Cao Lỗ, TP.HCM</p>
                     <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
                     <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <h3 class="text-white mb-4">Theo dõi chúng tôi</h3>
                     <div class="d-flex">
                         <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
