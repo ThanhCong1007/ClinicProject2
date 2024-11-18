@@ -81,22 +81,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="<%=request.getContextPath() %>/index.jsp" class="nav-item nav-link">Home</a>
-                <a href="<%=request.getContextPath() %>/templates/about.jsp" class="nav-item nav-link active">About</a>
-                <a href="<%=request.getContextPath() %>/templates/service.jsp" class="nav-item nav-link">Service</a>
+                <a href="<%=request.getContextPath() %>/index.jsp" class="nav-item nav-link active">Trang chủ</a>
+                <a href="<%=request.getContextPath() %>/templates/about.jsp" class="nav-item nav-link">Giới thiệu</a>
+                <a href="<%=request.getContextPath() %>/templates/service.jsp" class="nav-item nav-link">Dịch vụ</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hoạt động</a>
                     <div class="dropdown-menu m-0">
-                        <a href="<%=request.getContextPath() %>/templates/price.jsp" class="dropdown-item">Pricing Plan</a>
-                        <a href="<%=request.getContextPath() %>/templates/team.jsp" class="dropdown-item">Our Dentist</a>
-                        <a href="<%=request.getContextPath() %>/templates/testimonial.jsp" class="dropdown-item">Testimonial</a>
-                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="dropdown-item">Appointment</a>
+                        <a href="<%=request.getContextPath() %>/templates/price.jsp" class="dropdown-item">Chi phí</a>
+                        <a href="<%=request.getContextPath() %>/templates/team.jsp" class="dropdown-item">Nha sĩ</a>
+                        <a href="<%=request.getContextPath() %>/templates/testimonial.jsp" class="dropdown-item">Chứng nhận</a>
+                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="dropdown-item">Đặt hẹn</a>
                     </div>
                 </div>
-                <a href="<%=request.getContextPath() %>/templates/contact.jsp" class="nav-item nav-link">Contact</a>
+                <a href="<%=request.getContextPath() %>/templates/contact.jsp" class="nav-item nav-link">Liên hệ</a>
             </div>
             <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-            <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
+            <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 ms-3">Đặt hẹn</a>
         </div>
     </nav>
     <!-- Navbar End -->
