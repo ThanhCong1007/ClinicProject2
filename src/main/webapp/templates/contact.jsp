@@ -26,8 +26,8 @@
     <link href="<%=request.getContextPath() %>/libra/twentytwenty/twentytwenty.css" rel="stylesheet" />
 	
 	<!-- Customized Bootstrap Stylesheet -->
-    <link href="<%=request.getContextPath() %>/styles/bootstrap.min.css" rel="stylesheet">
-	<link href="<%=request.getContextPath() %>/styles/style.css" rel="stylesheet">
+    <link href="<%=request.getContextPath() %>/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<%=request.getContextPath() %>/css/style.css" rel="stylesheet">
 	
 	<title>DentCare - Dental Clinic</title>
 </head>
@@ -81,7 +81,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="<%=request.getContextPath() %>/index.jsp" class="nav-item nav-link active">Trang chủ</a>
+                <a href="<%=request.getContextPath() %>/index.jsp" class="nav-item nav-link">Trang chủ</a>
                 <a href="<%=request.getContextPath() %>/templates/about.jsp" class="nav-item nav-link">Giới thiệu</a>
                 <a href="<%=request.getContextPath() %>/templates/service.jsp" class="nav-item nav-link">Dịch vụ</a>
                 <div class="nav-item dropdown">
@@ -93,7 +93,7 @@
                         <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="dropdown-item">Đặt hẹn</a>
                     </div>
                 </div>
-                <a href="<%=request.getContextPath() %>/templates/contact.jsp" class="nav-item nav-link">Liên hệ</a>
+                <a href="<%=request.getContextPath() %>/templates/contact.jsp" class="nav-item nav-link active">Liên hệ</a>
             </div>
             <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
             <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-2 px-4 ms-3">Đặt hẹn</a>

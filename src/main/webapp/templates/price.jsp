@@ -26,8 +26,8 @@
     <link href="<%=request.getContextPath() %>/libra/twentytwenty/twentytwenty.css" rel="stylesheet" />
 	
 	<!-- Customized Bootstrap Stylesheet -->
-    <link href="<%=request.getContextPath() %>/styles/bootstrap.min.css" rel="stylesheet">
-	<link href="<%=request.getContextPath() %>/styles/style.css" rel="stylesheet">
+    <link href="<%=request.getContextPath() %>/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<%=request.getContextPath() %>/css/style.css" rel="stylesheet">
 	
 	<title>DentCare - Dental Clinic</title>
 </head>
@@ -81,13 +81,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="<%=request.getContextPath() %>/index.jsp" class="nav-item nav-link active">Trang chủ</a>
+                <a href="<%=request.getContextPath() %>/index.jsp" class="nav-item nav-link">Trang chủ</a>
                 <a href="<%=request.getContextPath() %>/templates/about.jsp" class="nav-item nav-link">Giới thiệu</a>
                 <a href="<%=request.getContextPath() %>/templates/service.jsp" class="nav-item nav-link">Dịch vụ</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hoạt động</a>
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Hoạt động</a>
                     <div class="dropdown-menu m-0">
-                        <a href="<%=request.getContextPath() %>/templates/price.jsp" class="dropdown-item">Chi phí</a>
+                        <a href="<%=request.getContextPath() %>/templates/price.jsp" class="dropdown-item active">Chi phí</a>
                         <a href="<%=request.getContextPath() %>/templates/team.jsp" class="dropdown-item">Nha sĩ</a>
                         <a href="<%=request.getContextPath() %>/templates/testimonial.jsp" class="dropdown-item">Chứng nhận</a>
                         <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="dropdown-item">Đặt hẹn</a>
