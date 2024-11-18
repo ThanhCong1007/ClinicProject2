@@ -141,9 +141,9 @@
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.1s">
                     <div class="section-title bg-light rounded h-100 p-5">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Dentist</h5>
-                        <h1 class="display-6 mb-4">Meet Our Certified & Experienced Dentist</h1>
-                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-3 px-5">Appointment</a>
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Các bác sĩ của chúng tôi</h5>
+                        <h1 class="display-6 mb-4">Gặp gỡ các bác sĩ giàu kinh nghiệm của chúng tôi</h1>
+                        <a href="<%=request.getContextPath() %>/templates/appointment.jsp" class="btn btn-primary py-3 px-5">Đặt hẹn</a>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> PGS. TS. BS Lâm Việt Trung </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> BS. CK2 Võ Đức Hiếu </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> PGS. TS. BS Trần Quang Nam </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> TS. BS Nguyễn Bá Thắng </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                             </div>
                         </div>
                         <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                            <h4 class="mb-2">Dr. John Doe</h4>
+                            <h4 class="mb-2"> TS. BS Trần Anh Tuấn </h4>
                             <p class="text-primary mb-0">Implant Surgeon</p>
                         </div>
                     </div>

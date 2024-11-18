@@ -147,16 +147,16 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="section-title mb-5">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Services</h5>
-                        <h1 class="display-5 mb-0">We Offer The Best Quality Dental Services</h1>
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Dịch vụ của chúng tôi</h5>
+                        <h1 class="display-5 mb-0">Chúng tôi là nơi cung cấp cho các bạn dịch vụ tốt nhất</h1>
                     </div>
                     <div class="row g-5">
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
                             <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="<%=request.getContextPath() %>/images/service-1.jpg" alt="">
+                                <img class="img-fluid" src="<%=request.getContextPath() %>/images/img/service-1.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Cosmetic Dentistry</h5>
+                                <h5 class="m-0">Nha khoa thẩm mỹ</h5>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
@@ -164,7 +164,7 @@
                                 <img class="img-fluid" src="<%=request.getContextPath() %>/images/service-2.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Implants</h5>
+                                <h5 class="m-0">Cấy ghép răng</h5>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                                 <img class="img-fluid" src="<%=request.getContextPath() %>/images/service-3.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Bridges</h5>
+                                <h5 class="m-0">Phẩu thuật trong miệng</h5>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
@@ -186,15 +186,15 @@
                                 <img class="img-fluid" src="<%=request.getContextPath() %>/images/service-4.jpg" alt="">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Teeth Whitening</h5>
+                                <h5 class="m-0">Làm trắng răng</h5>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
+                        <h3 class="text-white mb-3">Đặt lịch hẹn</h3>
+                        <p class="text-white mb-3">Đặt khám với hơn 600 bác sĩ, 25 bệnh viện, 100 phòng khám trên Dentcare để có số thứ tự và khung giờ khám trước.</p>
                         <h2 class="text-white mb-0">+012 345 6789</h2>
                     </div>
                 </div>
