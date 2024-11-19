@@ -29,7 +29,7 @@
     <link href="<%=request.getContextPath() %>/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<%=request.getContextPath() %>/css/style.css" rel="stylesheet">
 	
-	<title>DentCare - Dental Clinic</title>
+	<title>Phòng khám Công Cường</title>
 </head>
 
 <body>
@@ -53,16 +53,16 @@
         <div class="row gx-0">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Mở cửa từ 6 giờ sáng đến 10 giờ tối các ngày trong tuần</small>
                 </div>
             </div>
             <div class="col-md-6 text-center text-lg-end">
                 <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>ncc9173@gmail.com</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>0842326539</p>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
      <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a href="<%=request.getContextPath() %>/index.jsp" class="navbar-brand p-0">
-            <h1 class="m-0 text-primary"><i class="fa fa-tooth me-2"></i>DentCare</h1>
+            <h1 class="m-0 text-primary"><i class="fa fa-tooth me-2"></i>Phòng khám Công Cường</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -125,10 +125,10 @@
     <div class="container-fluid bg-primary py-5 hero-header mb-5">
         <div class="row py-3">
             <div class="col-12 text-center">
-                <h1 class="display-3 text-white animated zoomIn">About Us</h1>
-                <a href="" class="h4 text-white">Home</a>
+                <h1 class="display-3 text-white animated zoomIn">Giới thiệu</h1>
+                <a href="" class="h4 text-white">Trang chủ</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="" class="h4 text-white">About</a>
+                <a href="" class="h4 text-white">Giới thiệu</a>
             </div>
         </div>
     </div>

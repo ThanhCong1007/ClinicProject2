@@ -27,7 +27,7 @@
     <link href="<%=request.getContextPath() %>/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<%=request.getContextPath() %>/css/style.css" rel="stylesheet">
 	
-	<title>Phòng khám công cường</title>
+	<title>Phòng khám Công Cường</title>
 </head>
 <body>
 	  <!-- Spinner Start -->

@@ -29,7 +29,7 @@
     <link href="<%=request.getContextPath() %>/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<%=request.getContextPath() %>/css/style.css" rel="stylesheet">
 	
-	<title>DentCare - Dental Clinic</title>
+	<title>Phòng khám Công Cường</title>
 </head>
 
 <body>
@@ -53,16 +53,16 @@
         <div class="row gx-0">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Mở cửa từ 6 giờ sáng đến 10 giờ tối các ngày trong tuần</small>
                 </div>
             </div>
             <div class="col-md-6 text-center text-lg-end">
                 <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>ncc9173@gmail.com</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>0842326539</p>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
      <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a href="<%=request.getContextPath() %>/index.jsp" class="navbar-brand p-0">
-            <h1 class="m-0 text-primary"><i class="fa fa-tooth me-2"></i>DentCare</h1>
+            <h1 class="m-0 text-primary"><i class="fa fa-tooth me-2"></i>Phòng khám Công Cường</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -124,10 +124,10 @@
     <div class="container-fluid bg-primary py-5 hero-header mb-5">
         <div class="row py-3">
             <div class="col-12 text-center">
-                <h1 class="display-3 text-white animated zoomIn">Contact Us</h1>
-                <a href="" class="h4 text-white">Home</a>
+                <h1 class="display-3 text-white animated zoomIn">Liên hệ</h1>
+                <a href="" class="h4 text-white">Trang chủ</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="" class="h4 text-white">Contact</a>
+                <a href="" class="h4 text-white">Liên hệ</a>
             </div>
         </div>
     </div>
@@ -141,28 +141,28 @@
                 <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-delay="0.1s">
                     <div class="bg-light rounded h-100 p-5">
                         <div class="section-title">
-                            <h5 class="position-relative d-inline-block text-primary text-uppercase">Contact Us</h5>
-                            <h1 class="display-6 mb-4">Feel Free To Contact Us</h1>
+                            <h5 class="position-relative d-inline-block text-primary text-uppercase">Liên hệ</h5>
+                            <h1 class="display-6 mb-4">Hãy liên hệ với chúng tôi</h1>
                         </div>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Our Office</h5>
-                                <span>123 Street, New York, USA</span>
+                                <h5 class="mb-0">Phòng khám</h5>
+                                <span>123 Cao lỗ, TP.HCM</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Email Us</h5>
-                                <span>info@example.com</span>
+                                <h5 class="mb-0">Email </h5>
+                                <span>ncc9173@gmail.com</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center">
                             <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Call Us</h5>
-                                <span>+012 345 6789</span>
+                                <h5 class="mb-0">Gọi cho chúng tôi</h5>
+                                <span>0842326539</span>
                             </div>
                         </div>
                     </div>
@@ -171,19 +171,19 @@
                     <form>
                         <div class="row g-3">
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Tên của bạn" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
                                 <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="5" placeholder="Message"></textarea>
+                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="5" placeholder="Tin nhắn"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit">Gửi tin nhắn</button>
                             </div>
                         </div>
                     </form>
